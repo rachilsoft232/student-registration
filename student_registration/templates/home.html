@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>student Management</title>
+</head>
+<body>
+    <h1>Welcome to the Student Management System</h1>
+    <nav>
+        <a href="{% url 'add_student' %}">Add Student</a> |
+        <a href="{% url 'add_course' %}">Add Course</a> |
+        <a href="{% url 'student_list' %}">Student List</a> |
+        <a href="{% url 'course_list' %}">Course List</a>
+    </nav>
+</body>
+</html>
